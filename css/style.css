@@ -1,0 +1,1099 @@
+/*웹폰트*/
+/*kopub돋움*/
+@font-face {
+  font-family: 'KoPubDotumMedium';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*페이북*/
+@font-face {
+  font-family: 'paybooc-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{margin: 0; padding: 0;} 
+ul{list-style: none;}
+a{text-decoration: none; color: #231f20;}
+body{
+  font-family: 'KoPubDotumMedium';
+  font-size: 15px;
+  line-height: 23px;
+  color: #231f20;
+  min-width: 1320px;
+}
+
+/*----------------------------------------------top------------------------------------------------*/
+.top_inner{
+  width: 1320px;
+  height: 135px;
+  margin: auto;
+  position: relative;
+}
+
+.logo{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.top_icon{
+  float: right;
+  margin: 45px 65px 0 0;
+}
+
+.top_icon li{
+  float: left;
+  padding-left: 23px;
+}
+
+.top_icon li a{
+  display: block;
+}
+
+/*-------------------------------------------header------------------------------------------------*/
+#header{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.nav{
+  width: 1140px;
+  margin: auto;
+}
+
+.nav ul li{
+  float: left;
+  width: 228px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nav li a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav li:hover a{
+  color: #f1b84a;
+}
+
+/*-----------------------------------------main banner---------------------------------------------*/
+#main_banner{
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  height: 660px;
+}
+
+.swiper-wrapper a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/*---------------------------------------sub banner1-----------------------------------------------*/
+#sub_banner1{
+  width: 1312px;
+  height: 150px;
+  margin: 120px auto;
+}
+
+.sub_banner1_left{
+  display: block;
+  float: left;
+}
+
+.sub_banner1_right{
+  display: block;
+  float: right;
+}
+
+/*-----------------content1_recommended product_맞춤제품추천------------------------------*/
+.title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.title h6{
+  font-family: 'paybooc-Light';
+  font-size: 13px;
+}
+
+#content1{
+  width: 100%;
+  height: 530px;
+  background: #e4e4e4;
+}
+
+.box{
+  width: 1300px;
+  height: 530px;
+  margin: auto;
+}
+
+/*---------content1- box left---------*/
+.box_left{
+  padding: 75px 60px;
+  background: url(../images/main/leaf.png) no-repeat 45px 30px; 
+  width: 590px;
+  height: 530px;
+  box-sizing: border-box;
+  position: relative;/*link1기준*/
+  float: left;
+}
+
+.box_leftinner{
+  position: relative; /*select기준*/
+  width: 460px;
+  height: 380px;
+}
+
+.box_left h2{ 
+  font-family: 'paybooc-Bold';
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.white{
+  color: #fff;
+}
+
+.green{
+  color: #134031;
+}
+
+.box_left h2:nth-child(2){
+  padding: 5px 0 25px 100px;
+}
+
+.box_left p{
+  font-size: 14px;
+  color: #717070;
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.small_icon{
+  width: 424px;
+  height: 124px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 17px 25px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.small_icon ul li{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+.small_icon ul li:nth-child(1) img{
+  padding: 2px 0 1px 0;
+}
+
+.small_icon ul li:nth-child(2) img{
+  padding: 12px 0 8px 0;
+}
+
+.small_icon ul li:nth-child(3) img{
+  padding: 3px 0 1px 3px;
+}
+
+.small_icon ul li:nth-child(4) img{
+  padding: 11px 0 0 0;
+}
+
+.small_icon ul li:nth-child(5) img{
+  padding: 11.5px 0 0 0;
+}
+
+.small_icon li a{
+  display: inline-block;
+  text-align: center;
+}
+
+.small_icon li p{
+  color: #231f20;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.small_icon li:hover p{
+  transform: scale(1.1,1.1);
+  color: #eaa520;
+}
+
+select{
+  width: 368px;
+  height: 30px;
+  color: #a7a3a3;
+  font-size: 14px;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  outline-style: none;
+}
+
+.link1{
+  display: inline-block;
+  background-color: #f1b84a;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 60px;
+  left: 400px;
+}
+
+.link1:hover{
+  background-color: #144031;
+  color: #fff;
+  font-weight: 400;
+}
+
+/*---------content1- box right---------*/
+
+
+.box_right{
+  width: 710px;
+  height: 530px;
+  padding: 73px 60px 75px 0;
+  box-sizing: border-box;
+  float: right;
+  position: relative;
+}
+
+.box_rightinner{
+  width: 650px;
+  height: 332px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.right_img{
+  width: 332px;
+  height: 332px;
+  float: left;
+}
+
+.right_text{
+  width: 318px;
+  height: 332px;
+  padding: 30px;
+  float: right;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.right_text h4{
+ font-family: 'paybooc-Medium';
+ font-size: 14px;
+}
+
+.right_text h3{
+  font-family: 'paybooc-bold';
+  font-size: 20px;
+}
+
+.right_text p{
+  padding: 44px 0 44px 0;
+}
+
+.price{
+  font-weight: 600;
+  font-size: 20px;
+  background: url(../images/main/highlight_price.jpg) no-repeat center 13px;
+}
+
+.right_text ul{
+  width: 232px;
+}
+.right_text ul li{
+  font-size: 14px;
+  background: url(../images/main/highlight_explain.jpg) no-repeat -10px 10px;
+}
+
+.right_text ul li:nth-child(5){
+  float: right;
+  background: none
+}
+
+.link2{
+  display: inline-block;
+  background-color: #f1b84a;
+  font-family: 'paybooc-Bold';
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 60px;
+  left: 520px;
+}
+
+.big{
+ font-size: 25px;
+ font-weight: 500;
+}
+
+.link2:hover{
+  background-color: #144031;
+  color: #fff;
+  font-weight: 300;
+}
+
+/*-----------------------------------------sub_banner2---------------------------------------------*/
+#sub_banner2{
+  width: 1130px;
+  height: 165px;
+  margin: 120px auto;
+}
+
+.sub_banner2_left{
+  display: block;
+  float: left;
+}
+
+.sub_banner2_right{
+  display: block;
+  float: right;
+}
+
+/*-----------------------------contetn2_trending brand_주목해야할 브랜드----------------------------*/
+#content2{
+  background: url(../images/main/bg_trending_brand.jpg) no-repeat center top;
+  height: 742px;
+  background-size: cover;
+  padding: 66px 0;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+}
+
+.box2{
+  width: 1320px;
+  height: 610px;
+  margin: auto;
+  background: #fff; 
+  opacity: 90%;
+}
+
+/*---------box2_button-----------*/
+.box2_button{
+  width: 600px;
+  height: 71px;
+  border-bottom: #231f20 2px solid;
+}
+
+.box2_button button{
+  border: none;
+  padding: 22px 0;
+  width: 20%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: left;
+}
+
+.box2_button button:hover{
+  background-color: #144031;
+  color: #fff
+}
+
+.box2_inner{
+  width: 1175px;
+  height: 425px;
+  padding: 30px;
+  margin: auto;
+  position: relative;
+}
+
+/*---------content1- box left---------*/
+
+.box2_left{
+  width: 500px;
+  height: 467px;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+}
+
+.left2_logo{
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: -30px;
+  z-index: 99;
+}
+
+.left2_img{
+  width: 438px;
+  height: 373px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  /*padding: 20px 80px 0;*/
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hashtag{
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+  width: 500px;
+}
+
+.hashtag li{
+  float: left;
+  background-color: #f1b84a;
+  margin: 30px 18px;
+}
+
+/*---------content1- box right---------*/
+.box2_right{
+  width: 630px;
+  height: 424px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.box2_right_top{
+  padding-bottom: 50px;
+}
+
+.box2_right_top h2{
+  font-family: 'paybooc-Bold';
+  font-size: 17.5px;
+  padding-bottom: 20px;
+  line-height: 28px;
+}
+
+.brand_name{
+  font-size: 21px;
+  background: url(../images/main/highlight_price.jpg) no-repeat center bottom;
+}
+
+.green2{
+  color: #28856d;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.box2_right_bottom{
+  padding-right: 30px;
+}
+
+.box2_right_bottom h2{
+  font-family: 'paybooc-Bold';
+  font-size: 17px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.brand_name2{
+  background: url(../images/main/highlight_price.jpg) no-repeat center bottom;
+}
+
+.brand_icon{
+  float: right;
+}
+
+.brand_icon li{
+  float: left;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #28856d;
+}
+
+.link3{
+  display: inline-block;
+  background-color: #f4b2ac;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  right: 570px;
+}
+
+.link3:hover{
+  background-color: #144031;
+  color: #fff;
+  font-weight: 400;
+}
+
+/*-----------------------------content3_category_카테고리별 바로가기---------------------------------*/
+.title3{
+  text-align: center;
+  margin-bottom: 80px;
+}
+.title3 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.title3 h6{
+  font-family: 'paybooc-Light';
+  font-size: 13px;
+}
+
+#content3{
+  width: 1320px;
+  height: 150px;
+  margin: 0 auto 120px;
+}
+
+.box3{
+  width: 1020px;
+  margin: auto;
+}
+
+.box3 li{
+  float: left;
+  width: 170px;
+  height: 130px;
+  text-align: center;
+}
+
+.box3 li:nth-child(1) a{
+  background-image: url(../images/main/category_icon_best.png);
+}
+.box3 li:nth-child(2) a{
+  background-image: url(../images/main/category_icon_food.png);
+}
+.box3 li:nth-child(3) a{
+  background-image: url(../images/main/category_icon_cosmetic.png);
+}
+.box3 li:nth-child(4) a{
+  background-image: url(../images/main/category_icon_life.png);
+}
+.box3 li:nth-child(5) a{
+  background-image: url(../images/main/category_icon_health.png);
+}
+.box3 li:nth-child(6) a{
+  background-image: url(../images/main/category_icon_pet.png);
+}
+
+.box3 li a{
+  display: block;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 140px;
+  box-sizing: border-box;
+}
+
+.box3 li a span{
+  display: inline-block;
+  background-color:#28856d ;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+
+.box3 li a:hover span{
+  background-color: #f1b84a;      
+  color: #231f20;     
+}
+
+/*------------------------content4_vegan hub magazine_비건허브 매거진-------------------------------*/
+#content4{
+  background: url(../images/main/bg_magazine.jpg) no-repeat center top;
+  background-size: cover;
+  height: 1266x;
+  padding: 80px 0;
+}
+
+.title4{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.title4 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.title4 h6{
+  font-family: 'paybooc-Light';
+  font-size: 13px;
+}
+
+.box4_inner{
+  width: 1320px;
+  height: 1140px;
+  margin: auto;
+}
+
+/*---------content4_box4-1---------*/
+.box4-1{
+  width: 850px;
+  height: 365px;
+  margin: auto;
+}
+
+.box4-1_img{
+  display: block;
+  float: left;
+  width: 291px;
+  height: 365px;
+}
+
+.box4-1_text{
+  float: right;
+  width: 541.88px;
+  height: 365px;
+}
+
+.box4-1_text h2{
+  font-family: 'paybooc-ExtraBold';
+  font-size: 19px;
+  color: #144031;
+  padding-bottom: 20px;
+  border-bottom: #231f20 1px solid;
+}
+
+.box4-1_text h3{
+  font-family: 'paybooc-Bold';
+  font-size: 15px;
+  padding: 20px 0 20px 20px;
+}
+
+.name4-1{
+  font-family: 'paybooc-Light';
+  font-size: 17px;
+  color: #fff;
+  background-color: #144031;
+}
+
+.box4-1_text p{
+  font-size: 15px;
+  padding: 0 0 20px 40px;
+}
+
+.box4-1_text p .bold{
+  font-size: 16px;
+}
+
+.box4-1_text h4{
+  font-family: 'paybooc-Bold';
+  font-size: 15px;
+  color: #144031;
+  padding: 0 0 10px 40px;
+}
+
+/*---------content4_box4-2---------*/
+.box4-2{
+  width: 803.22px;
+  height: 314px;
+  margin: 80px auto;
+  box-sizing: border-box;
+}
+
+.box4-2_img{
+  display: block;
+  float: right;
+  width: 301px;
+  height: 314px;
+}
+
+.box4-2_text{
+  float: left;
+  text-align: right;
+  width: 502.22px;
+  height: 314px;
+}
+
+.box4-2_text h2{
+  font-family: 'paybooc-Bold';
+  font-size: 19px;
+  color: #eaa520;
+  padding-bottom: 20px;
+  border-bottom: #231f20 1px solid;
+}
+
+.box4-2_text h3{
+  font-family: 'paybooc-Bold';
+  font-size: 15px;
+  padding: 20px 20px 20px 0;
+}
+
+.name4-2{
+  font-family: 'paybooc-Light';
+  font-size: 17px;
+  color: #fff;
+  background-color: #eaa520;
+}
+
+.box4-2_text p{
+  padding: 0 40px 20px 0;
+}
+
+.bold4{
+  font-family: 'paybooc-Bold';
+}
+
+.refer{
+  float: right;
+  line-height: 27px;
+}
+
+/*---------content4_box4-3---------*/
+.box4-3{
+  width: 833px;
+  height: 300px;
+  margin: auto;
+}
+
+.box4-3_img{
+  display: block;
+  float: left;
+  width: 252px;
+  height: 300px;
+}
+
+.box4-3_text{
+  width: 557px;
+  height: 300px;
+  float: right;
+}
+
+.box4-3_text h2{
+  font-family: 'paybooc-Bold';
+  font-size: 19px;
+  color: #f48177;
+  padding-bottom: 20px;
+  border-bottom: #231f20 1px solid;
+}
+
+.box4-3_text h3{
+  font-family: 'paybooc-Bold';
+  font-size: 15px;
+  padding: 20px 0 0 15px;
+  line-height: 26px;
+}
+
+.box4-3_text p{
+  padding: 20px 0 0 33px ;
+}
+
+.name4-3{
+  font-family: 'paybooc-Medium';
+  font-size: 16px;
+  color: #fff;
+  background-color: #f48177;
+}
+
+.box4-3_text p .bold{
+  font-size: 16px;
+}
+
+/*-------------------------------------content5- review 리뷰---------------------------------------*/
+#content5{
+  width: 1320px;
+  margin: 120px auto 190px;
+}
+
+
+.title5{
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.title5 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.title5 h6{
+  font-family: 'paybooc-Light';
+  font-size: 13px;
+}
+
+.box5-1{
+  width: 800px;
+  height: 400px;
+  margin: auto;
+}
+
+.box5-1_left{
+  width: 400px;
+  height: 400px;
+  float: left;
+  position: relative;
+}
+
+.box5-1_img{
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+
+.box5-1_right{
+  width: 400px;
+  height: 400px;
+  float: right;
+  position: relative;
+}
+
+.box5-1_text{
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  float: right;
+  padding: 50px;
+  border: #134031 8px solid;
+  text-align: center;
+}
+
+.brand{
+  font-family: 'paybooc-Light';
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.box5-1_text h2{
+  font-family: 'paybooc-Bold';
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+.customer{
+  font-weight: 300;
+  font-size: 13.5px;
+  padding-bottom: 5px;
+}
+
+.star{
+  padding-bottom: 30px;
+}
+
+.link4{
+  display: inline-block;
+  background-color: #f4b2ac;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -60px;
+  left: 157.44px;
+}
+
+.link5{
+  display: inline-block;
+  background-color: #f4b2ac;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: -60px;
+  right: 128.78px;
+}
+
+.link4:hover, .link5:hover{
+  background-color: #144031;
+  color: #fff;
+  font-weight: 400;
+}
+
+/*--------------------------------------------footer-----------------------------------------------*/
+#footer{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.footer_nav{
+  width: 1320px;
+  height: 63px;
+  margin: auto;
+}
+
+.footer_nav ul{
+  width: 660px;
+}
+
+.footer_nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer_nav li:hover a{
+  color: #f1b84a;
+}
+
+.footer_inner{
+  width: 1320px;
+  height: 230px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*----------------------------------------footer_inner_left----------------------------------------*/
+.footer_inner_left{
+  width: 660px;
+  height: 150px;
+  padding-left: 40px;
+  float: left;
+}
+
+.footer_logo{
+  display: inline-block;
+  width: 182px;
+  height: 62px;
+}
+
+.footer_text{
+  width: 660px;
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.footer_link li{
+  float: left;
+}
+
+.footer_link li a{
+  display: inline-block;
+}
+
+.footer_link li:nth-child(6){
+  padding-left: 8px;
+}
+
+
+/*----------footer_inner_right----------*/
+.footer_inner_right{
+  width: 500px;
+  height: 150px;
+  float: right;
+  padding-right: 40px;
+}
+
+.cs{
+  width: 170px;
+  float: left;
+}
+
+.cs h3{
+  width: 110px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.cs p, .bank p{
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cs p.number, .bank p.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bank{
+  width: 250px;
+  float: right;
+}
+
+.bank h3{
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0;
+}
+

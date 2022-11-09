@@ -1,0 +1,413 @@
+/*웹폰트*/
+/*kopub돋움*/
+@font-face {
+    font-family: 'KoPubDotumMedium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /*페이북*/
+  @font-face {
+    font-family: 'paybooc-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  *{margin: 0; padding: 0;} 
+  ul{list-style: none;}
+  a{text-decoration: none; color: #231f20;}
+  body{
+    font-family: 'KoPubDotumMedium';
+    font-size: 15px;
+    line-height: 23px;
+    color: #231f20;
+    min-width: 1320px;
+  }
+  img{display: block;}
+.clearfix ::before, .clearfix ::after {display: block;, content:'';, clear: both;}
+  
+  /*----------------------------------------------top------------------------------------------------*/
+  .top_inner{
+    width: 1320px;
+    height: 135px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .logo{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .top_icon{
+    float: right;
+    margin: 45px 65px 0 0;
+  }
+  
+  .top_icon li{
+    float: left;
+    padding-left: 23px;
+  }
+  
+  .top_icon li a{
+    display: block;
+  }
+  
+  /*-------------------------------------------header------------------------------------------------*/
+  #header{
+    width: 100%;
+    height: 63px;
+    background-color: #faf1e5;
+  }
+  
+  .nav{
+    width: 1140px;
+    margin: auto;
+  }
+  
+  .nav ul li{
+    float: left;
+    width: 228px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .nav li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .nav li:hover a{
+    color: #f1b84a;
+  }
+  
+  /*-----------------------------*/
+  
+#section{
+	width:1200px;
+	text-align:center;
+  margin: auto;
+}
+
+.title1{
+  text-align: center;
+  padding: 90px 0PX;
+}
+
+.title1 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  color: #231f20;
+}
+
+
+/*----------box1-----------*/
+#box1{
+	margin:0	auto;
+	position:relative;
+	padding:20px	0;
+	display:inline-block;
+}
+
+#box1>li{
+	float:left;
+	display:inline-block;
+	font-size:16px;
+	text-align:center;
+	margin:0	40px;
+  font-family: 'paybooc-Bold';
+}
+
+.tap{
+	cursor:pointer;
+	display:inline-block;
+}
+
+.tap:hover{
+	color:#000;
+	border-bottom:3px	solid	#000;
+	
+}
+
+.opacity{
+	color:#000;
+	border-bottom:3px	solid	#000;
+}
+
+#box1>li.on>.box1_1{
+
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+	
+
+}
+#box1>li>.box1_1{
+	height:0;
+	overflow:hidden;
+}
+
+.box1_1{
+	width:750px;
+	text-align:left;
+	padding:10px	0	20px	0px;
+	margin:0	auto;
+  border-top: 1px solid #b5b5b5;
+  position: relative;
+}
+
+.box1_1 a{
+  display: inline-block;
+  font-size: 15px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.box1_1 a:hover{
+  font-weight: bold;
+  border-bottom: 2px solid #231f20;
+}
+
+.date, .type, .name{
+  margin-right: 50px;
+  padding: 0px 30px 0px 30px;
+  border-right: 2px solid #b5b5b5;
+}
+
+.accordion:hover{
+	color:#000;
+  font-weight: 900;
+}
+.accordion{
+	font-size:16px;
+	cursor:pointer;
+  padding:20px	0px;
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.panel{
+	max-height:0;
+	overflow:hidden;
+	transition:max-height	0.3s	ease-out;
+}
+
+/*---------------section2---------------*/
+#section2{
+  width: 1200px;
+  height: 603px;
+  margin: 30px auto 150px;
+}
+
+.contact{
+  width: 1200px;
+  height: 400px;
+}
+
+.map{
+  float: left;
+  width: 600px;
+  height: 400px;
+}
+
+.img{
+  float: left;
+  width: 600px;
+  height: 400px;
+  background-color: #000;
+  position: relative;
+}
+
+.img ul{
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  top: 35px;
+  left: 140px;
+}
+
+
+.img ul li{
+  display: none;
+  margin: 35px 0px;
+}
+
+.img ul li img{
+  float: left;
+  padding-right: 20px;
+}
+
+.img ul li:nth-child(1){
+  padding-left: 5px;
+}
+
+.img ul li:nth-child(1) img{
+  margin-right: 7px;
+}
+
+
+/*--hover시--*/
+.img:hover > img{
+  opacity: 0.3;
+}
+
+.img:hover ul li{
+  display: block;
+}
+
+.img li p{
+  color: #fff;
+  font-size: 16px;
+}
+
+.closed{
+  font-size: 14px;
+  padding-left: 55px;
+}
+
+/*--------------------------------------------footer-----------------------------------------------*/
+#footer{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.footer_nav{
+  width: 1320px;
+  height: 63px;
+  margin: auto;
+}
+
+.footer_nav ul{
+  width: 660px;
+}
+
+.footer_nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer_nav li:hover a{
+  color: #f1b84a;
+}
+
+.footer_inner{
+  width: 1320px;
+  height: 230px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*----------------------------------------footer_inner_left----------------------------------------*/
+.footer_inner_left{
+  width: 660px;
+  height: 150px;
+  padding-left: 40px;
+  float: left;
+}
+
+.footer_logo{
+  display: inline-block;
+  width: 182px;
+  height: 62px;
+}
+
+.footer_text{
+  width: 660px;
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.footer_link li{
+  float: left;
+}
+
+.footer_link li a{
+  display: inline-block;
+}
+
+.footer_link li:nth-child(6){
+  padding-left: 8px;
+}
+
+
+/*----------footer_inner_right----------*/
+.footer_inner_right{
+  width: 500px;
+  height: 150px;
+  float: right;
+  padding-right: 40px;
+}
+
+.cs{
+  width: 170px;
+  float: left;
+}
+
+.cs h3{
+  width: 110px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.cs p, .bank p{
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cs p.number, .bank p.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bank{
+  width: 250px;
+  float: right;
+}
+
+.bank h3{
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0;
+}
+

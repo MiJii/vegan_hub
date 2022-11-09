@@ -1,0 +1,667 @@
+/*웹폰트*/
+/*kopub돋움*/
+@font-face {
+  font-family: 'KoPubDotumMedium';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+/*페이북*/
+@font-face {
+  font-family: 'paybooc-ExtraBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{margin: 0; padding: 0;} 
+ul{list-style: none;}
+a{text-decoration: none; color: #231f20;}
+body{
+  font-family: 'KoPubDotumMedium';
+  font-size: 15px;
+  line-height: 23px;
+  color: #231f20;
+  min-width: 1320px;
+}
+
+
+/*----------------------------------------------top------------------------------------------------*/
+.top_inner{
+  width: 1320px;
+  height: 135px;
+  margin: auto;
+  position: relative;
+}
+
+.logo{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.top_icon{
+  float: right;
+  margin: 45px 65px 0 0;
+}
+
+.top_icon li{
+  float: left;
+  padding-left: 23px;
+}
+
+.top_icon li a{
+  display: block;
+}
+
+/*-------------------------------------------header------------------------------------------------*/
+#header{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.nav{
+  width: 1140px;
+  margin: auto;
+}
+
+.nav ul li{
+  float: left;
+  width: 228px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nav li a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav li:hover a{
+  color: #f1b84a;
+}
+
+/*--------------------------------------------content1---------------------------------------------------*/
+#content1{
+  width: 100%;
+  height: 673px;
+  margin: 50px auto 130px;
+}
+
+.line{
+  background: url(../img/sub_1/logo2.png) 95% 50% no-repeat;
+  border-bottom: #144031 2px solid;
+  height: 132px;
+  width: 692px;
+  margin-bottom: 40px;
+}
+
+.content1_bg{
+  width: 100%;
+  height: 500px;
+  background: #144031;
+}
+
+.content1_inner{
+  width: 1320px;
+  height: 500px;
+  margin: auto;
+  padding: 50px 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.content1_img{
+  position: absolute;
+  top: -100px;
+  right: 0;
+}
+
+.content1_text{
+  width: 1000px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 180px 0px 0px 0px;
+  padding: 40px 70px;
+  box-sizing: border-box;
+}
+
+.content1_text h2{
+  padding: 0px 0px 40px 40px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-style: italic;
+}
+
+.info{
+  font-family: 'paybooc-Medium';  
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 30px;
+}
+
+.poppins{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.poppins_italic{
+  font-family: 'Poppins';
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.pink{
+  background-color: #f8bbb8;
+}
+
+.info2{
+  line-height: 27px;
+  padding-top: 30px;
+}
+
+.yellow{
+  background-color: #f1b84a;
+}
+
+/*---------------------------------------------content2------------------------------------------------------*/
+#content2{
+  width: 1060px;
+  height: 400px;
+  margin: auto;
+  background: url(../img/sub_1/img_content2.png) no-repeat left center;
+}
+
+.content2_text{
+  width: 1060px;
+  height: 400px;
+  margin: auto;
+  background: url(../img/sub_1/lets_vegan.png) no-repeat left center;
+  padding : 80px 0px 40px 465px;
+  box-sizing: border-box;
+}
+
+.content2_text h2{
+  font-family: 'paybooc-Medium';
+  font-size: 18px;
+}
+
+.content2_text h3{
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+.poppins_grn{
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  background-color: #144031;
+}
+
+.content2_text p{
+  padding: 30px 0;
+}
+
+.padding{
+  padding: 5px 0px 0px 70px;
+}
+
+/*----------------------------------------content3---------------------------------------------*/
+#content3{
+  background: url(../img/sub_1/bg_content3.jpg) repeat-y;
+  background-size: cover;
+  margin-top: 130px;
+}
+
+.content3_inner{
+  width: 1320px;
+  height: 2439px;
+  padding: 80px 0;
+  margin: auto;
+}
+
+.title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+/*----------------content3-1--------------------*/
+.content3-1{
+  width: 1170px;
+  height: 765px;
+  margin: auto;
+  background: url(../img/sub_1/1.png) no-repeat left -12%;
+}
+
+.vision1{
+  width: 420px;
+  height: 73px;
+  text-align: left;
+  background: url(../img/sub_1/leafs.png) no-repeat 10% 65%;
+  padding: 80px 0 0 120px;
+}
+
+.vision1 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.vision1 p{
+  font-family: 'paybooc-Light';
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.vision1_text{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.first{
+  font-family: 'paybooc-Bold';
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.poppins_grn_italic{
+  font-family: 'Poppins',sans-serif;
+  font-size: 21px;
+  font-style: italic;
+  color: #fff;
+  background-color: #144031;
+}
+
+.second{
+  font-family: 'paybooc-Bold';
+  font-size: 16px;
+  padding: 40px 0 20px 0;
+}
+
+/*----------------content3-2--------------------*/
+.content3-2{
+  width: 1170px;
+  height: 705px;
+  margin: 80px auto;
+  background: url(../img/sub_1/2.png) no-repeat left -12%;
+}
+
+.vision2{
+  width: 585px;
+  height: 73px;
+  text-align: left;
+  background: url(../img/sub_1/leafs.png) no-repeat 11% 65%;
+  padding: 80px 0 0 145px;
+}
+
+.vision2 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.vision2 p{
+  font-family: 'paybooc-Light';
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+
+/*-----packing1-----*/
+.packing1{
+  width: 1170px;
+  height: 250px;
+  padding-top: 40px;
+  margin: auto;
+}
+
+.packing1_img li{
+  float: left;
+  display: block;
+  position: relative;
+  background-color: #231f20;
+}
+
+/*hover시*/
+
+.packing1_img li img:hover{
+  opacity: 0.3;
+}
+
+.packing1_img li img{
+  display: block;
+}
+
+.packing1_img li p{
+  display: none;
+}
+
+.packing1_img li:hover p{
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  font-family: 'paybooc-Medium';
+  text-align: center;
+  position: absolute;
+  top: 125px;
+  left: 63px;
+}
+
+.packing1_img li:nth-child(1) p{
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+
+.packing1_img li p .size{
+  font-size: 15px;
+}
+
+/*hover시 end*/ 
+
+.packing1_text{
+  font-family: 'paybooc-Light';
+  font-size: 15px;
+  float: right;
+}
+
+.packing1_text .bold{
+  font-family: 'paybooc-Medium';
+}
+
+/*-----packing2-----*/
+.packing2{
+  width: 1170px;
+  height: 250px;
+  margin: auto;
+}
+
+.packing2_text{
+  float: left;
+  text-align: right;
+  padding: 160px 0px 0px 40px;
+}
+
+.packing2_text h2{
+  font-family: 'Lora', serif;
+  font-size: 19px;
+  font-style: italic;
+}
+
+.packing2_text p{
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.packing2_img ul{
+  float: right;
+}
+
+.packing2_img li{
+  float: left;
+  display: block;
+  position: relative;
+  background-color: #231f20;
+}
+
+/*hover 시*/
+
+.packing2_img li img:hover{
+  opacity: 0.3;
+}
+
+.packing2_img li img{
+  display: block;
+}
+
+.packing2_img li p{
+  display: none;
+}
+
+.packing2_img li:hover p{
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  font-family: 'paybooc-Medium';
+  text-align: center;
+  position: absolute;
+  top: 110px;
+  left: 30px;
+}
+
+.packing2_img li:nth-child(2) p{
+  position: absolute;
+  top: 105px;
+  left: 75px;
+}
+
+.packing2_img li:nth-child(3) p{
+  position: absolute;
+  top: 90px;
+  left: 25px;
+}
+
+.packing2_img li p .size{
+  font-size: 15px;
+}
+
+.packing2_img li p .size2{
+  font-size: 13px;
+}
+
+/*hover시 end*/
+
+/*-----------------------content3-3------------------------------*/
+.content3-3{
+  width: 1170px;
+  height: 540px;
+  margin: auto;
+  background: url(../img/sub_1/3.png) no-repeat left -12%;
+}
+
+.vision3{
+  width: 585px;
+  height: 73px;
+  text-align: left;
+  background: url(../img/sub_1/leafs.png) no-repeat 13% 75%;
+  padding: 110px 0 0 160px;
+}
+
+.vision3 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.vision3 p{
+  font-family: 'paybooc-Light';
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.vision3_img{
+  display: block;
+  float: left;
+  padding: 36px 0px 0px 55px;
+}
+
+.vision3_text{
+  float: right;
+  padding: 36px 55px 0px 0px;
+}
+
+.vision3_text h2{
+  font-family: 'paybooc-Bold';
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+
+.vision3_text p{
+  padding: 0px 0px 50px 10px;
+}
+
+.vision3_text h3{
+  font-family: 'paybooc-Bold';
+  font-size: 17px;
+  line-height: 29px; 
+}
+
+.vision3_text h3 .poppins_grn_italic{
+  font-size: 21px;
+  font-weight: 400;
+}
+
+/*--------------------------------------------footer-----------------------------------------------*/
+#footer{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.footer_nav{
+  width: 1320px;
+  height: 63px;
+  margin: auto;
+}
+
+.footer_nav ul{
+  width: 660px;
+}
+
+.footer_nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer_nav li:hover a{
+  color: #f1b84a;
+}
+
+.footer_inner{
+  width: 1320px;
+  height: 230px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*----------------------------------------footer_inner_left----------------------------------------*/
+.footer_inner_left{
+  width: 660px;
+  height: 150px;
+  padding-left: 40px;
+  float: left;
+}
+
+.footer_logo{
+  display: inline-block;
+  width: 182px;
+  height: 62px;
+}
+
+.footer_text{
+  width: 660px;
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.footer_link li{
+  float: left;
+}
+
+.footer_link li a{
+  display: inline-block;
+}
+
+.footer_link li:nth-child(6){
+  padding-left: 8px;
+}
+
+
+/*----------footer_inner_right----------*/
+.footer_inner_right{
+  width: 500px;
+  height: 150px;
+  float: right;
+  padding-right: 40px;
+}
+
+.cs{
+  width: 170px;
+  float: left;
+}
+
+.cs h3{
+  width: 110px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.cs p, .bank p{
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cs p.number, .bank p.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bank{
+  width: 250px;
+  float: right;
+}
+
+.bank h3{
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0;
+}

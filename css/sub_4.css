@@ -1,0 +1,501 @@
+/*웹폰트*/
+/*kopub돋움*/
+@font-face {
+    font-family: 'KoPubDotumMedium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  /*페이북*/
+  @font-face {
+    font-family: 'paybooc-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'paybooc-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  *{margin: 0; padding: 0;} 
+  ul{list-style: none;}
+  a{text-decoration: none; color: #231f20;}
+  body{
+    font-family: 'KoPubDotumMedium';
+    font-size: 15px;
+    line-height: 23px;
+    color: #231f20;
+    min-width: 1320px;
+  }
+  img{display: block;}
+.clearfix ::before, .clearfix ::after {display: block;, content:'';, clear: both;}
+
+
+/*----------------------------------------------top------------------------------------------------*/
+.top_inner{
+    width: 1320px;
+    height: 135px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .logo{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .top_icon{
+    float: right;
+    margin: 45px 65px 0 0;
+  }
+  
+  .top_icon li{
+    float: left;
+    padding-left: 23px;
+  }
+  
+  .top_icon li a{
+    display: block;
+  }
+  
+  /*-------------------------------------------header------------------------------------------------*/
+  #header{
+    width: 100%;
+    height: 63px;
+    background-color: #faf1e5;
+  }
+  
+  .nav{
+    width: 1140px;
+    margin: auto;
+  }
+  
+  .nav ul li{
+    float: left;
+    width: 228px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .nav li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .nav li:hover a{
+    color: #f1b84a;
+  }
+
+/*------------------------content1---------------------*/
+
+#content1{
+  width: 100%;
+  height: 1970px; 
+  background: url(../images/sub_4/bg2.jpg) center center repeat-y;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+}
+
+#content1_inner{
+  width: 1320px;
+  height: ;
+  margin: auto;
+}
+
+.title2{
+  text-align: center;
+  padding: 90px 0 110px 0;
+}
+
+.title2 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 23px;
+  color: #231f20;
+}
+
+.title2 p{
+  font-family: 'paybooc-Medium';
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+
+
+/*--------restaurant--------*/
+
+.restaurant{
+  width: 1150px;
+  height: 555px;
+  margin: auto;
+}
+
+.small_title1{
+  width: 230px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0 90px;
+  background: url(../images/sub_4/leaf2.png) 0px 0px no-repeat;
+}
+
+.small_title1 h2, .small_title2 h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.rest_l{
+  width: 402px;
+  height: 415px;
+  float: left;
+  position: relative;
+}
+
+.rest_img{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.point{
+ position: absolute;
+ top: 130px;
+ left: 445px;
+ z-index: 99;
+}
+
+.rest_l a{
+  position: absolute;
+  display: inline-block;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #707070;
+}
+
+.rest_l a:hover{
+  box-shadow: -5px -5px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+
+.rest_r{
+  width: 655px;
+  height: 415px;
+  background-color: #fff;
+  padding: 30px 45px;
+  border-radius: 42px;
+  float: right;
+  box-sizing: border-box;
+  position: relative;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.rest_r h3{
+  font-family: 'paybooc-Bold';
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.rest_r span{
+  font-size: 19px;
+}
+
+.rest_r p{
+  padding: 30px 0;
+}
+
+.hashtag{
+  position: absolute;
+  left: 45px;
+  bottom: 60px;
+}
+
+.hashtag li, .hashtag2 li{
+  font-family: 'paybooc-Medium';
+  float: left;
+  padding-left: 10px;
+  color: #707070;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.hashtag2 li{
+  margin-right: 10px;
+}
+
+.hashtag2{
+  position: absolute;
+  left: 45px;
+  bottom: 30px;
+}
+
+.info{
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+}
+
+.info li{
+  font-size: 14px;
+  color: #707070;
+}
+
+/*---------------recipe----------------*/
+
+.recipe{
+  width: 1320px;
+  height: ;
+  margin: auto;
+  position: relative; /*img기준*/
+}
+
+.small_title2{
+  width: 180px;
+  height: 30px;
+  margin: 90px auto 0px;
+  text-align: center;
+  padding: 20px 0 90px;
+  background: url(../images/sub_4/leaf1.png) 0px 0px no-repeat;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8) ;
+}
+
+.recipe_text{
+  width: 960px;
+  height: 600px;
+  background-color: #fff;
+  padding: 30px 150px 30px 50px;
+  box-sizing: border-box;
+  border-radius: 0px 300px 300px 0px;
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.3);
+  position: relative;/*a기준*/
+}
+
+.recipe_text h3{
+  font-family: 'paybooc-Bold';
+  font-size: 19px;
+}
+
+.recipe_text h4{
+  font-family: 'paybooc-Bold';
+  float: left;
+  padding: 30px 15px 20px 0px;
+}
+
+.recipe_text p{
+  clear: both;
+  padding-left: 10px;
+}
+
+.recipe_text h5{
+  font-family: 'paybooc-Medium';
+  padding: 30px 0px 20px 0px;
+}
+
+.box1{
+  float: left;
+  width: 190px;
+  height: 220px;
+}
+
+.ingredient1{
+  float: left;
+  padding-left: 10px;
+}
+
+.ingredient1 li, .ingredient2 li, .ingredient3 li, .ingredient4 li{
+  color: #707070;
+}
+
+.ingredient2{
+  float: right;
+  padding-right: 18px;
+  box-sizing: border-box;
+}
+
+.box2{
+  float: left;
+  width: 160px;
+  height: 120px;
+  margin-left: 100px;
+}
+
+.ingredient3{
+  clear: both;
+  float: left;
+  padding-left: 10px;
+}
+
+.ingredient4{
+  float: right;
+}
+
+.recipe_text a{
+  display: inline-block;
+  color: #fff;
+  background-color: #707070;
+  position: absolute;
+  bottom: 175px;
+  right: 230px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.recipe_text a:hover{
+box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3) inset;
+}
+
+.recipe_img1{
+  position: absolute;
+  top: 270px;
+  right: 100px;
+}
+
+.recipe_img2{
+  position: absolute;
+  bottom: -180px;
+  left: 300px;
+}
+
+/*--------------------------------------------footer-----------------------------------------------*/
+#footer{
+  width: 100%;
+  height: 63px;
+  background-color: #faf1e5;
+}
+
+.footer_nav{
+  width: 1320px;
+  height: 63px;
+  margin: auto;
+}
+
+.footer_nav ul{
+  width: 660px;
+}
+
+.footer_nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer_nav li:hover a{
+  color: #f1b84a;
+}
+
+.footer_inner{
+  width: 1320px;
+  height: 230px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/*----------------------------------------footer_inner_left----------------------------------------*/
+.footer_inner_left{
+  width: 660px;
+  height: 150px;
+  padding-left: 40px;
+  float: left;
+}
+
+.footer_logo{
+  display: inline-block;
+  width: 182px;
+  height: 62px;
+}
+
+.footer_text{
+  width: 660px;
+  float: left;
+  font-size: 13px;
+  line-height: 21px;
+  padding-top: 20px;
+}
+
+.footer_link li{
+  float: left;
+}
+
+.footer_link li a{
+  display: inline-block;
+}
+
+.footer_link li:nth-child(6){
+  padding-left: 8px;
+}
+
+
+/*----------footer_inner_right----------*/
+.footer_inner_right{
+  width: 500px;
+  height: 150px;
+  float: right;
+  padding-right: 40px;
+}
+
+.cs{
+  width: 170px;
+  float: left;
+}
+
+.cs h3{
+  width: 110px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.cs p, .bank p{
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cs p.number, .bank p.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.bank{
+  width: 250px;
+  float: right;
+}
+
+.bank h3{
+  width: 90px;
+  font-size: 16px;
+  font-weight: 600;
+  background: url(../images/main/highlight_price.jpg) repeat-x left bottom;
+}
+
+.bank_number{
+  font-weight: bold;
+  font-size: 15px;
+  margin: 15px 0;
+}
+
