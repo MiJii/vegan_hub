@@ -1,0 +1,603 @@
+  <!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=1320">
+		<title>Vegan Hub</title>
+		<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+		<link href="css/style.css" rel="stylesheet" type="text/css">	
+		
+		<!-- Link Swiper's CSS 메인배너-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+		<!--content3- magazine-->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!--content1 -맞춤상품-->
+		<link rel="stylesheet" type="text/css" href="js/slick.css">
+		<link rel="stylesheet" type="text/css" href="js/slick-theme_.css">
+		<link rel="stylesheet" type="text/css" href="css/style_content2.css">
+
+		<!--웹폰트-->
+		<!--poppins-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	</head>
+	<body>
+	
+<!-------------------------------------------top---------------------------------------------------->
+<div id="top">
+	<div class="top_inner">
+		<h1><a href="#" class="logo"><img src="images/main/logo.png" alt="로고"></a></h1>
+		<ul class="top_icon">
+			<li><a href="#"><img src="images/main/search.png" alt="검색창"></a></li>
+			<li><a href="#"><img src="images/main/bag.png" alt="장바구니"></a></li>
+			<li><a href="#"><img src="images/main/login.png" alt="로그인"></a></li>
+		</ul>
+	</div>
+</div>
+
+<!------------------------------------------header-------------------------------------------------->
+<div id="header">
+	<div class="nav">
+		<ul>
+			<li><a href="sub/sub_1.html">VEGAN HUB STORY</a></li>
+			<li><a href="sub/sub_2.html">SHOP</a></li>
+			<li><a href="sub/sub_3.html">REVIEW</a></li>
+			<li><a href="sub/sub_4.html">MAGAZINE</a></li>
+			<li><a href="sub/sub_5.html">CS CENTER</a></li>
+		</ul>
+	</div>
+</div>
+
+<!---------------------------------------main banner----------------------------------------------->
+<div id="main_banner">
+	<!-- Swiper -->
+	<div class="swiper mySwiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><a href="#"><img src="images/main/main_banner1.jpg" alt="메인배너1"></a></div>
+			<div class="swiper-slide"><a href="#"><img src="images/main/main_banner2.jpg" alt="메인배너2"></a></div>
+		</div>
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			spaceBetween: 0,
+			centeredSlides: true,
+			autoplay: {
+				delay: 3000,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+	</script>
+
+</div>
+
+<!---------------------------------------sub banner1-------------=--------------------------------> 
+<div id="sub_banner1">
+	<a href="#" class="sub_banner1_left"><img src="images/main/sub_banner1_left.jpg" alt="서브배너1_좌"></a>
+	<a href="#" class="sub_banner1_right"><img src="images/main/sub_banner1_right.jpg" alt="서브배너1_우"></a>
+</div>
+
+<!-------------------------content1_recommended product_맞춤제품추천--------------------------------->
+ <div class="title">
+	<h2>RECOMMENDED PRODUCTS</h2>
+		<H6>맞춤 제품 추천</H6>
+ </div>
+
+ <div id="content1">
+  <div class="box">
+<!-----------content1- box left----------->
+	 <div class="box_left">
+		 <div class="box_leftinner">
+		 <h2><span class="white">"다양한</span> 비건 제품 중</h2>
+					<h2><span class="green">나에게 가장 잘 맞는 제품</span>은 어떤게 있을까?"</h2>
+			 <p>로그인하시면 고객님의 구매내역 및 빅데이터를 기반으로 <br>
+					비건허브가 맞춤 제품을 추천해드려요</p>
+
+			<div class="small_icon">
+				<ul>
+					<li><a href="#"><img src="images/main/small_icon_food.png" alt="food"></a>
+						<p>FOOD</p></li>
+					<li><a href="#"><img src="images/main/small_icon_cosmetic.png" alt="cosmetic"></a>
+						<p>COSMETIC</p></li>
+					<li><a href="#"><img src="images/main/small_icon_life.png" alt="life"></a>
+						<p>LIFE</p></li>
+					<li><a href="#"><img src="images/main/small_icon_health.png" alt="health"></a>
+						<p>HEALTH</p></li>
+					<li><a href="#"><img src="images/main/small_icon_pet.png" alt="pet"></a>
+						<p>PET</p></li>
+				</ul>
+			</div>
+
+			<select name="style" id="vegan_style" placeholder="">
+				<option value="선택">고객님의 비건라이프 스타일을 선택해주세요.</option>
+				<option value="플렉시">플렉시테리언</option>
+				<option value="폴로">폴로 베지테리언</option>
+				<option value="페스코">페스코 베지테리언</option>
+				<option value="락토오보">락토오보 베지테리언</option>
+				<option value="락토">락토 베지테리언</option>
+				<option value="오보">오보 베지테리언</option>
+				<option value="비건">비건</option>
+			</select>
+		</div>
+		<a href="#" class="link1">LET'S VEGAN !</a>
+	</div>
+
+<!-----------content1- box right----------->
+
+			<div class="box_right">
+				<div class="box_rightinner regular slider">
+			<div class="slick_wrap1">
+				<div class="right_img">
+					<img src="images/main/img_bluebread_.jpg" alt="블루브레드 제품사진">
+				</div>
+				
+				<div class="right_text">
+					<h4>더 블루 브레드</h4>
+					<h3>블루 비건 피자</h3>
+					<p>판매가 <span class="price">15,900원</span></p>
+					<ul>
+						<li>01. NO 버터, NO 우유, NO 계란</li>
+						<li>02. NON GMO</li>
+						<li>03. 더브레드블루만의 노하우, 천연발효종</li>
+						<li>04. 프랑스산 밀가루, 국산 쌀가루,</li>
+						<li>우리밀로 엄선된 최고급 재료들</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="slick_wrap2">
+				<div class="right_img">
+					<img src="images/main/img_drbronners.jpg" alt="닥터브로너스 제품사진">
+				</div>
+				
+				<div class="right_text">
+					<h4>닥터 브로너스</h4>
+					<h3>베이비 마일드
+						퓨어 캐스틸 솝</h3>
+					<p>판매가 <span class="price">33,000원</span></p>
+					<ul>
+						<li>01. 영유아 추천, 저자극향, 무첨가</li>
+						<li>02. 5가지 유기농 오일 베이스</li>
+						<li>03. 22년간 미국 연속 1위, 비건 클렌저</li>
+						<li>04. 환경을 생각하는 클린한 공정,</li>
+						<li>100% PCR 플라스틱, 재생에너지 사용</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="slick_wrap3">
+				<div class="right_img">
+					<img src="images/main/img_vegantamin.jpg" alt="비건타민 제품사진">
+				</div>
+				
+				<div class="right_text">
+					<h4>비건타민</h4>
+					<h3>식물성 멀티비타민 앤 미네랄</h3>
+					<p>판매가 <span class="price">39,000원</span></p>
+					<ul>
+						<li>01. NO 동물실험,동물성분 100% 비건</li>
+						<li>02. 0%무부형제,유기농 기능성원료 17종</li>
+						<li>03. GMP인증 체계적인 3중 품질관리</li>
+						<li>04. 국내 생산 최초, 엄격하고 까다로운</li>
+						<li>이탈리아 브이라벨 V-LABEL 비건인증</li>
+					</ul>
+				</div>
+			</div>
+
+		 </div>
+				<a href="sub/sub_2.html" class="link2">구매하러 가기 <span class="big">→</span></a>
+			</div>
+	</div>
+ </div>
+
+<!-------------------------------------sub banner2------------------------------------------------->
+<div id="sub_banner2">
+	<a href="#" class="sub_banner2_left"><img src="images/main/sub_banner2_left.jpg" alt="서브배너2_좌"></a>
+	<a href="#" class="sub_banner2_right"><img src="images/main/sub_banner2_right.jpg" alt="서브배너2_우"></a>
+</div>
+
+<!-------------------------content2_trending brand_주목해야할 브랜드--------------------------------->
+<div class="title">
+	<h2>TRENDING BRAND</h2>
+		<H6>주목해야할 브랜드</H6>
+ </div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script>
+				$(function(){
+						$("#button1").click(function(){
+							$(".food").fadeIn();
+								$(".cosmetic").fadeOut();
+								$(".life").fadeOut();
+								$(".health").fadeOut();
+								$(".pet").fadeOut();
+						});	
+						$("#button2").click(function(){
+							$(".food").fadeOut();
+								$(".cosmetic").fadeIn();
+								$(".life").fadeOut();
+								$(".health").fadeOut();
+								$(".pet").fadeOut();
+						});
+						$("#button3").click(function(){
+								$(".food").fadeOut();
+								$(".cosmetic").fadeOut();
+								$(".life").fadeIn();
+								$(".health").fadeOut();
+								$(".pet").fadeOut();
+						});
+						$("#button4").click(function(){
+								$(".food").fadeOut();
+								$(".cosmetic").fadeOut();
+								$(".life").fadeOut();
+								$(".health").fadeIn();
+								$(".pet").fadeOut();
+						});
+						$("#button5").click(function(){
+								$(".food").fadeOut();
+								$(".cosmetic").fadeOut();
+								$(".life").fadeOut();
+								$(".health").fadeOut();
+								$(".pet").fadeIn();
+						});
+				});
+			</script>
+
+ <div id="content2">
+<div class="box2">
+<div class="box2_button">
+	<div>
+		<button id="button1" >FOOD</button>
+		<button id="button2" onclick="openBoard(event,'Board02')">COSMETIC</button>
+		<button id="button3" onclick="openBoard(event,'Board01')">LIFE</button>
+		<button id="button4">HEALTH</button>
+		<button id="button5">PET</button>
+	</div>
+</div> <!--box2_button end-->
+
+
+
+
+<div id="Board01"	class="box1_1	board">
+				
+
+<!---------tab___life----------------->
+		<div class="box2_inner life"> 
+		<!-----------content2- box left----------->
+		<div class="box2_left">
+			<img src="images/main/img_logo_boonco.png" alt="분코로고" class="left2_logo">
+			<div class="left2_img"><img src="images/main/img_boonco.jpg" alt="분코이미지" ></div>
+			<ul class="hashtag">
+				<li>#비건홈케어</li>
+				<li>#소셜분코</li>
+				<li>#전성분공개</li>
+				<li>#자연유래성분사용</li>
+			</ul>
+		</div>
+
+		<!-----------content2- box right----------->
+		<div class="box2_right">
+		 <div class="box2_right_top">
+			<h2><span class="brand_name">분코</span>는 지금까지 가볍게 여겨졌던 생활 속 화학제품을 정직하고 진지한 태도로 대하는 <br>
+			프리미엄 비건케어 브랜드입니다.</h2>
+			<p>세상에서 가장 잘 닦이는 제품보다는 우리 가족에게 안전하고 이로운 제품을 추구합니다. <br>
+				어떤 제품을 선택해도 안심이 되고, <span class="bold">일상 속에서 손쉽게 비건을 실천할 수 있도록 <br>
+				<span class="green2"> 자연 유래 성분 사용과 비건 인증, 전성분 100% 공개</span></span>를 통해 <br>
+				사람과 동물 모두의 안전을 생각한 제품을 만들어 나갑니다. </p>
+			</div>
+			<div class="box2_right_bottom">
+				<h2>“매일을 함께 하는 비건 케어 빠르고 강력하지는 않더라도, <br>
+					느리지만 건강하게 그것이 <span class="brand_name2">분코</span>가 추구하는  생활의 본질입니다.”
+				</h2>
+				<ul class="brand_icon">
+					<li><img src="images/main/icon_boonco1_.png" alt="자연재료"><br>
+						자연재료</li>
+					<li><img src="images/main/icon_boonco2_.png" alt="동물실험반대"><br>
+						동물실험반대</li>
+					<li><img src="images/main/icon_boonco3.png" alt="ewg그린레벨"><br>
+						ewg그린레벨</li>
+					<li><img src="images/main/icon_boonco4.png" alt="비건인증"><br>
+					비건인증</li>
+				</ul>
+			</div>
+		</div>
+
+			<a href="sub/sub_2.html" class="link3"><span class="big">←</span> SHOP</a>
+		</div> 
+</div>
+
+<div id="Board02" class="box1_1	board" style="display:none;">
+				
+
+ 
+	<!---------tab___food----------------->
+			<div class="box2_inner food"> 
+			<!-----------content2- box left----------->
+			<div class="box2_left">
+				<img src="images/main/img_logo_boonco.png" alt="분코로고" class="left2_logo">
+				<div class="left2_img"><img src="images/main/img_boonco.jpg" alt="분코이미지" ></div>
+				<ul class="hashtag">
+					<li>#비건치즈</li>
+					<li>#유제품없는치즈</li>
+					<li>#식물성치즈</li>
+					<li>#알레르겐제어</li>
+				</ul>
+			</div>
+	
+			<!-----------content2- box right----------->
+			<div class="box2_right">
+			 <div class="box2_right_top">
+				<h2><span class="brand_name">데이야</span>는 모든 사람이 즐길 수 있는 유제품과 식물성 기반 대안을 제공하고 있는<br>
+				비건식품 브랜드입니다.</h2>
+				<p>세상에서 가장 잘 닦이는 제품보다는 우리 가족에게 안전하고 이로운 제품을 추구합니다. <br>
+					어떤 제품을 선택해도 안심이 되고, <span class="bold">일상 속에서 손쉽게 비건을 실천할 수 있도록 <br>
+					<span class="green2"> 자연 유래 성분 사용과 비건 인증, 전성분 100% 공개</span></span>를 통해 <br>
+					사람과 동물 모두의 안전을 생각한 제품을 만들어 나갑니다. </p>
+				</div>
+				<div class="box2_right_bottom">
+					<h2>“매일을 함께 하는 비건 케어 빠르고 강력하지는 않더라도, <br>
+						느리지만 건강하게 그것이 <span class="brand_name2">분코</span>가 추구하는  생활의 본질입니다.”
+					</h2>
+					<ul class="brand_icon">
+						<li><img src="images/main/icon_boonco1_.png" alt="자연재료"><br>
+							자연재료</li>
+						<li><img src="images/main/icon_boonco2_.png" alt="동물실험반대"><br>
+							동물실험반대</li>
+						<li><img src="images/main/icon_boonco3.png" alt="ewg그린레벨"><br>
+							ewg그린레벨</li>
+						<li><img src="images/main/icon_boonco4.png" alt="비건인증"><br>
+						비건인증</li>
+					</ul>
+				</div>
+			</div>
+	
+				<a href="#" class="link3"><span class="big">←</span> BRAND SHOP</a>
+			</div> 
+	</div>
+<!---------tab___life end----------------->
+
+
+	</div> <!--box2 end-->
+</div> <!--#content2 end-->
+
+
+ <!---------------------------content3_category_카테고리별 바로가기----------------------------------->
+<div class="title3">
+	<h2>CATEGORY</h2>
+		<H6>카테고리별 바로가기</H6>
+ </div>
+
+ <div id="content3">
+	 <ul class="box3">
+		 <li><a href="sub/sub_2.html" ><span>ALL</span></a></li>
+		 <li><a href="sub/sub_2.html"><span>FOOD</span></a></li>
+		 <li><a href="sub/sub_2.html"><span>COSMETIC</span></a></li>
+		 <li><a href="sub/sub_2.html"><span>LIFE</span></a></li>
+		 <li><a href="sub/sub_2.html"><span>HEALTH</span></a></li>
+		 <li><a href="sub/sub_2.html"><span>PET</span></a></li>
+	 </ul>
+ </div>
+
+ <!-------------------------content4_vegan hub magazine_비건허브 매거진------------------------------>
+
+		<!--js-->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+		<script src="js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+
+ <div id="content4">
+	<div class="title4">
+		<h2>VEGAN HUB MEGAZINE</h2>
+			<H6>다양한 비건지식 & 비건이슈</H6>
+	 </div>
+
+	 <div class="box4_inner">
+	 <div class="box4-1" data-aos="fade-left" data-aos-duration="2000">
+		 <div class="box4-1_img">
+			<img src="images/main/img_magazine1.png" alt="데세르토">
+		</div>
+		 <div class="box4-1_text">
+			 <h2>" 선인장으로 만든 가죽, Desserto "</h2>
+			 <h3>멕시코에서 지금 가장 주목 받고 있는 패션업체  <span class="name4-1">'데세르토(Desserto)'</span>  는 <br>
+					선인장 가죽을 이용해 제품을 만든다.</h3>
+				<p>
+					선인장은 멕시코에서 가장 흔히 볼 수 있는 식물이자, 척박한 땅에서도 잘 자라고 <br>
+					물도 거의 필요 없는 데다 잎을 잘라내면 또 재생되는 특징이 있다. <br>
+					<br>
+					수확한 선인장을 필요한 재료들을 섞어 압축해 섬유화 하면 질기고 튼튼한 <br>
+					선인장 가죽이 만들어지는데, 수명은 <span class="bold">천연 동물 가죽과 비슷한 10년 정도</span>라고 한다. <br>
+				</p>
+					<h4>통기성과 탄력성도 좋아 품질과 활용도는 물론이고 제작과정에서 독성 물질이 <br>
+						들어가지 않는 데다 지역 농가와 상생까지 가능한 선인장 가죽.</h4>
+					<p>앞으로의 행보가 주목되는 회사이다.</p>
+		 </div>
+	 </div>
+
+	 <div class="box4-2" data-aos="fade-right" data-aos-duration="2000">
+		<div class="box4-2_img">
+		 <img src="images/main/img_magazine2.png" alt="비건슈퍼">
+		</div>
+		 <div class="box4-2_text">
+			<h2>" 비건슈퍼, Vegan Space "</h2>
+			<h3><span class="name4-2">'비건스페이스(Vegan Space)'</span>  는 비건 전문 식료품점이다.</h3>
+			<p>
+				다양한 우유 대체품, 콩고기, 곡물, 견과류, <br>
+				각종 소스는 물론, 비건 요거트와 치즈도 함께 구비되어있다.  
+			</p>
+			<p>
+				인도네시아 메주라 불리는 템페, 샴푸, 대나무 칫솔, 크루얼티 프리 치약 같은 <br>
+				비건 뷰티 아이템도 갖춰져 있어서 구경하는 재미가 쏠쏠하다는 평이 자자하다. 
+			</p>
+			<p class="refer">
+				<span class="bold4">운영시간</span><br>
+				매일 11:00 ~ 20:00
+			</p>
+			<p class="refer">
+				<span class="bold4">위치</span><br>
+				서울 용산구 신흥로 26
+			</p>
+		</div>
+		</div>
+		 <div class="box4-3" data-aos="fade-left" data-aos-duration="2000">
+			<div class="box4-3_img">
+				<img src="images/main/img_magazine3_.png" alt="비건패션뷰티">
+			</div>
+				<div class="box4-3_text">
+				 <h2>" 비건 패션과 비건 뷰티, 어떻게 다르고 어떻게 같을까? "</h2>
+				 <h3>
+					비건 뷰티와 비건 패션은 모두 비 동물실험과 동물성 성분 배제, 친환경적이고 <br>
+					윤리적인 소비로써 인식되고 있다.
+				 </h3>
+				 <p>
+					<span class="name4-3">‘비건 패션’</span>  에서는 <span class="bold">동물성 소재를 사용하지 않고, 대안 소재를 사용하는 개념</span>으로 <br>
+					동물성 소재 대신 인조 가죽이나 인조 퍼 등 환경 친화적이지 않은 소재를 사용하여도 <br>
+					비건 패션의 영역으로 인정될 수 있지만, 
+			  	</p>
+				 <p>
+					<span  class="name4-3">‘비건 뷰티’</span> 의 경우, <span class="bold">동물성 원료의 사용</span> 뿐 아니라 <span class="bold">동물실험 금지, 유해성분 사용 금지,
+					환경 친화적 원료의 사용</span> 등을 꼼꼼히 따지는 소비자들이 늘고 있다. <br>
+					이는 비건 뷰티에서는 환경에 대한 니즈뿐만 아니라 안전에 대한 니즈까지 있기 때문이다.
+				</p>
+	 			</div>
+ 			</div>
+		</div>
+	</div>
+
+	<!----------------------------------content5_review 리뷰------------------------------------------>
+<div id="content5">
+	<div class="title5">
+		<h2>REVIEW</h2>
+			<H6>비건허브를 통한 비건라이프의 시작</H6>
+	</div>
+
+	<div class="box5-1">
+		<div class="box5-1_left"> 
+		 <a href="#">
+			<div class="box5-1_img"><img src="images/main/img_review1_.jpg" alt="라브아리뷰"></div>
+		 </a>
+			<a href="sub/sub_2.html" class="link4">SHOP <span class="big">→</span></a>
+		</div>
+
+		<div class="box5-1_right">
+		 <div class="box5-1_text">
+			<p class="brand">
+				LAVOIR(라브아)
+			</p>
+			<h2>런드리 세트 : 화이트머스크&앰버 <br>
+			(비건세탁세제&유연제 2종 세트) 후기</h2>
+			<p class="customer">
+				No**님의 후기
+			</p>
+			<div class="star"><img src="images/main/img_star.png" alt="별"></div>
+			<p class="review">
+			 비건제품인 점과 세련된 용기 디자인에 끌려 <br>
+			 구매까지 하게 되었는데 세상에나 향에 완전 <br>
+				취향저격 당했어요..빨래 널어 놓으면 온 집에 <br>
+				포근한 향기가 은은해서 기분 좋아요
+			</p>
+			<a href="sub/sub_3.html" class="link5">MORE REVIEW <span class="big">→</span></a>
+		 </div>
+	  </div>
+ </div>
+</div>
+
+<!-------------------------------------------footer------------------------------------------------->
+<div id="footer">
+	<div class="footer_nav">
+		<ul>
+			<li><a href="sub/sub_1.html">ABOUT</a></li>
+			<li><a href="#">SOCIAL</a></li>
+			<li><a href="sub/sub_5.html">CONTACT US</a></li>
+			<li><a href="sub/sub_5.html">CS CENTER</a></li>
+		</ul>
+	</div>
+	<div class="footer_inner">
+		<div class="footer_inner_left">
+			<div class="footer_logo"><a href="#"><img src="images/main/footer_logo.png" alt="푸터로고"></a></div>
+			<div class="footer_text">
+				<ul class="footer_info">
+					<li>(주)비건허브 대표이사: 김미지 ｜사업자등록번호:132-54-08679</li>
+					<li>E-mail : info@veganhub.com｜Tel : 02-2935-3437 / 010-2956-3438｜주소 : 서울특별시 중구 을지로2가 163-3</li>
+				</ul>
+				<ul class="footer_link">
+					<li><a href="#">개인정보처리방침</a></li>
+					<li>｜</li>
+					<li><a href="#">이용약관</a></li>
+					<li>｜</li>
+					<li><a href="#">사업자정보확인</a></li>
+					<li>copyright ⓒ 2022 veganhyb all right-lts reserved</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer_inner_right">
+			<div class="cs">
+				<h3>고객상담실 안내</h3>
+				<p class="number">070-2049-2000</p>
+				<p class="time">
+					평일 10:30-17:00 <br>
+					점심 12:00-13:00
+				</p>
+				<p class="notice">
+					주말, 공휴일은 휴무입니다. <br>
+					1:1문의 게시판을 이용해주세요.
+				</p>
+			</div>
+
+			<div class="bank">
+				<h3>계좌이체 안내</h3>
+				<p class="bank_number">
+					KB국민은행｜477512-03-365492
+				</p>
+				<p class="memo">
+					예금주 - 주식회사 비건허브 <br>
+					오전 11시까지 입금 완료 시 당일 발송 <br>
+					현금영수증 발급은 구매날짜로부터 5일 이내가능
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--content1-js-->
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+	$(".regular").slick({infinite: true , /* 맨끝이미지에서 끝나지 않고 다시 맨앞으로 이동 */         
+	slidesToShow: 1, /* 화면에 보여질 이미지 갯수*/        
+	slidesToScroll: 1,  /* 스크롤시 이동할 이미지 갯수 */         
+	autoplay: true, /* 자동으로 다음이미지 보여주기 */         
+	arrows: false, /* 화살표 */         
+	dots:true, /* 아래점 */         
+	autoplaySpeed:3300,/* 다음이미지로 넘어갈 시간 */         
+	speed:1200 , /* 다음이미지로 넘겨질때 걸리는 시간 */         
+	pauseOnHover:true, /* 마우스 호버시 슬라이드 이동 멈춤 */        
+	//vertical:true,/* 세로방향으로 슬라이드를 원하면 추가하기// 기본값 가로방향 슬라이드*/        
+	       });
+    });
+</script>
+
+</body>
+</html>
